@@ -5,6 +5,7 @@ import AddStudent from '@/features/students/pages/add';
 import $event, { navigate as goTo } from '@/utils/event';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
+import './App.css';
 
 function Home() {
   const toStudentPage = () => {

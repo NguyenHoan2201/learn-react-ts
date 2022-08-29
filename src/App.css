@@ -39,3 +39,17 @@
 .read-the-docs {
   color: #888;
 }
+
+.error {
+  color: rgb(247, 72, 72);
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+form {
+  text-align: left;
+}
+form>div{
+  margin-top: 0.4rem;
+  width: 100%
+}

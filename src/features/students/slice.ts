@@ -51,7 +51,7 @@ const studentSlice = createSlice({
     addStudent(state, action: PayloadAction<Student>) {},
 
     deleteStudentSuccess(state, action: PayloadAction<number  >) {
-      state.list.splice(0 , 1)
+      state.list.splice(0 , 1);
     },
     deleteStudent(state, action: PayloadAction<number>) { }
   },

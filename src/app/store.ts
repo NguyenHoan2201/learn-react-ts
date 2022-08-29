@@ -5,7 +5,7 @@ import rootSaga from './saga';
 
 const reducers = combineReducers({
   student: studentReducer,
-})
+});
 
 const sagaMiddleware = createSagaMiddleware();
 

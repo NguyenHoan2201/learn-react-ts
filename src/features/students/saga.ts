@@ -17,11 +17,11 @@ function* fetchStudentList(action?: PayloadAction<ListParams>) {
 }
 
 function* addStudent(action: PayloadAction<Student>){
-  yield put(studentActions.addStudentSuccess(action.payload))
+  yield put(studentActions.addStudentSuccess(action.payload));
 }
 
 function* deleteStudent(action: PayloadAction<number>){
-  yield put(studentActions.deleteStudentSuccess(action.payload))
+  yield put(studentActions.deleteStudentSuccess(action.payload));
 }
 
 export default function* studentSaga(){
